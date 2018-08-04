@@ -19,8 +19,11 @@ class Collapsible extends React.Component {
     const {isExpanded}= this.state;
     return(
       <div className={`panel ${isExpanded ? 'is-expanded': ''}` } onClick={(e) => this.handleToggle(e)}>
-          <div className="panel-heading"><h2>{title}</h2>
-              </div>
+          <div className="panel-heading">
+            <h2>
+              {title}
+            </h2>
+          </div>
           <div className="panel-collapse">
               <div className="panel-body">
                   {children}

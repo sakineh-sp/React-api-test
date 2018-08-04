@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './stylesheet.css';
-import Collapsible from './Collapsible';
+import Example from './collapse-reactstrsp';
 // import List from './component/list';
 
 
@@ -49,7 +49,7 @@ class App extends Component {
           </header>
           <div className="content">
               <div className="panel-group">
-                <Collapsible></Collapsible>
+                <Example></Example>
               </div>
           </div>
         {/* /* <h1>Collapse</h1> */}
